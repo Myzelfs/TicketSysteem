@@ -408,7 +408,7 @@ namespace TicketSysteem
             Hide();
             this.Close();
             AutoLogout.Stop();
-            MessageBox.Show("You were AFK and have been sent back to the login page");
+            MessageBox.Show("You were AFK and have been sent back to the login page.");
             Login redirect = new Login();
             redirect.ShowDialog();
         }
@@ -461,6 +461,11 @@ namespace TicketSysteem
             AutoLogout.Start();
             TimerDatagrid.Stop();
             TimerDatagrid.Start();
+        }
+
+        private void Homepage_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

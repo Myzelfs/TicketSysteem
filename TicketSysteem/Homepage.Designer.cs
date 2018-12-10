@@ -340,7 +340,6 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ticketsysteem";
-            this.Load += new System.EventHandler(this.Homepage_Load);
             this.Click += new System.EventHandler(this.Homepage_Click);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Homepage_MouseMove);
             this.Menuhomepage.ResumeLayout(false);

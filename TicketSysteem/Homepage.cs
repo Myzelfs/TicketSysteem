@@ -462,10 +462,5 @@ namespace TicketSysteem
             TimerDatagrid.Stop();
             TimerDatagrid.Start();
         }
-
-        private void Homepage_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
